@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick=hideSidebar()>
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24">
+              <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+            </svg>
+          </a>
+        </li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <ul>
+        <li1>Portfolio</li1>
+        <li class="hide"><a href="#Home">Home</a></li>
+        <li class="hide"><a href="#About">About</a></li>
+        <li class="hide"><a href="#Contact">Contact</a></li>
+        <li class="menu" onclick=showSidebar()>
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+              </svg>
+            </a>
+        </li>
+      </ul>
+    </nav>
+    <script src="javascript.js"></script>
+    <section id="Home">
+      <div class="container">
+  <p1>Hello, I'm</p1>
+  <p2 class="name">Harikaran</p2>
+  <p3>Frontend Developer</p3>
+</div>
+
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./pictures/Resume.pdf')"
+          >
+            Download CV
+          </button>
+    </div>
+   
+   <div class="socials-container">
+          <img
+            src="./pictures/linkedin.png"
+            alt="LinkedIn"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+    <img
+            src="./pictures/behance.png"
+            alt="behance"
+            class="icon"
+            onclick="location.href='https://www.behance.net/'"
+          />
+          <img
+            src="./pictures/instagram.png"
+            alt="instagtam"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/'"
+          />
+          
+        </div>
+   
+</section>
+    <section id="About">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="details-container">
+              <img
+                src="./pictures/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B C A / Bachelors of Computer Application<br /></p>
+            </div>
+    <div class="text-container">
+            <p>
+              As a dedicated and aspiring Web Developer, I'm a proactive student seeking an internship to apply and enhance my skills in Web Development. Proficient in HTML, CSS and JavaScript, <br>I am eager to contribute to real-world projects while gaining hands on experience.
+               I'm excited about the opportunity to learn and grow within a dynamic team.
+            </p>
+          </div>
+     <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Knowledge</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">SKILLS</h2>
+            <div class="article-container">
+              <article>
+                 <img
+                  src="./pictures/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./pictures/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+    <article>
+                <img
+                  src="./pictures/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java script</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+    <article>
+                <img
+                  src="./pictures/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+    </section>
+    <section id="Contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./pictures/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://harikaran.k0311mail.google.com/mail/mu/mp/343/#tl/priority/%5Esmartlabel_personal">k.hariharan3112004@gmail.com</a></p>
+        
+        
+          <img
+            src="./pictures/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/harikaran-k-2a2299251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav1>
+        
+          <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+          </ul>
+      </nav1>
+    <center>
+      <p>Copyright &#169; 2024 Hari. All Rights Reserved.</p>
+    </center>
+    </footer>
+  </body>
+</html>
